@@ -1,4 +1,4 @@
-# spotify_api
+# Spotify API
 Aim for this project is to create a class to make use of the spotify api
 and get a dictionary of playlists, tracks and artists.
 
