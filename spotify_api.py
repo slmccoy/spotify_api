@@ -74,7 +74,7 @@ class SpotifyAPI:
 
         response = requests.get(featured_playlists_url,headers=headers)
 
-        #Should return a list of dictionaries - one for each playlist
+        #List of dictionaries - one for each playlist
         return response.json()['playlists']['items']
 
     def get_playlist_details(self, playlist_id):
@@ -138,4 +138,4 @@ client_secret = '0fb6b42963f7494e9df38e5f56967ad8'
 client = SpotifyAPI(client_id, client_secret)
 client.get_token()
 playlists = client.featured_playlist_dict()
-print(isinstance(playlists,dict))
+#print(isinstance(playlists,dict))
