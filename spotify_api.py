@@ -93,6 +93,9 @@ class SpotifyAPI:
 
         track = track_info['track']
 
+        if track == None:
+            return ('',[])
+
         track_name = track['name']
 
         artists = track['artists']
