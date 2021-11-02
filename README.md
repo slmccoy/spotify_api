@@ -14,3 +14,6 @@ https://developer.spotify.com/documentation/web-api/reference/#/
 #Files
 spotify_api.py contains final Class.
 Other documents contain other elements of code used to help structure class creation.
+
+#Warning
+client_secret has now been updated
